@@ -1,0 +1,38 @@
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.top-banner h1 {
+  color: rgb(51, 176, 157);
+  text-align: center;
+}
+
+.top-banner p {
+  text-align: center;
+}
+
+h2 {
+  color: rgb(9, 109, 92);
+}
+
+.animal {
+  text-align: center;
+  float:left;
+  width: 325px;
+  height: 350px;
+  background-color: rgb(212, 232, 212);
+  border: 5px solid rgb(135, 150, 135);
+  border-radius: 5%;
+  padding: 10px;
+  margin: 5px;
+  box-sizing: border-box;
+}
+
+.animal * {
+  margin: auto;
+}
+
+.animal img {
+  display: block;
+}
+
