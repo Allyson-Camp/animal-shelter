@@ -12,5 +12,16 @@ window.onload = function () {
       body.style.backgroundColor = "white";
       body.style.color = "black";
   };
+
+  const large = document.getElementById("large");
+  large.onclick = function () {
+    body.style.fontSize = "50px";
+  }
+
+  const def = document.getElementById("default");
+  def.onclick = function () {
+    body.style.fontSize = "12px";
+  }
+
 }
 
